@@ -1,75 +1,96 @@
-# PlanPerfect
-Propuesta: Comparador de precios de servicios online con enfoque en experiencia humana
-# Welcome to your Lovable project
+This immersive artifact is rendered using Gemini AST.
 
-## Project info
+PlanPerfect - Comparador de Precios con Enfoque Humano
 
-**URL**: https://lovable.dev/projects/27e29072-e165-4dfb-ae6b-cd335ad283f9
+PlanPerfect es un proyecto para construir un comparador de precios de servicios online (como hosting, VPNs, software SaaS, etc.) que va más allá de las simples especificaciones técnicas.
 
-## How can I edit this code?
+A diferencia de los comparadores tradicionales, PlanPerfect se enfoca en la experiencia humana. El objetivo es ayudar a los usuarios a tomar decisiones basándose en factores que realmente importan a largo plazo:
 
-There are several ways of editing your application.
+Calidad del Soporte al Cliente: ¿Responden rápido? ¿Son útiles?
 
-**Use Lovable**
+Facilidad de Uso: ¿Qué tan intuitiva es la plataforma? ¿Es fácil empezar?
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/27e29072-e165-4dfb-ae6b-cd335ad283f9) and start prompting.
+Precios Transparentes: ¿Existen costos ocultos, o el precio de renovación es engañoso?
 
-Changes made via Lovable will be committed automatically to this repo.
+Opiniones de la Comunidad: Reseñas y valoraciones de usuarios reales.
 
-**Use your preferred IDE**
+🚀 Características Principales (En Desarrollo)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Comparaciones visuales y fáciles de entender.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Filtros avanzados basados en la "experiencia humana" (ej. "Mejor soporte", "Más fácil de usar").
 
-Follow these steps:
+Sistema de reseñas de usuarios verificadas.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Alertas de precios y seguimiento de ofertas.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Artículos y guías que explican los servicios en lenguaje sencillo, no técnico.
 
-# Step 3: Install the necessary dependencies.
+💻 Tecnologías Utilizadas
+
+Este proyecto está construido con un stack moderno y eficiente:
+
+Vite: Build tool y servidor de desarrollo ultra-rápido.
+
+React: Biblioteca principal para construir la interfaz de usuario.
+
+TypeScript: Para un código más robusto y mantenible.
+
+Tailwind CSS: Framework CSS utility-first para un diseño rápido.
+
+shadcn/ui: Componentes de UI prediseñados y accesibles.
+
+🛠️ Empezar (Desarrollo Local)
+
+Si quieres contribuir o ejecutar este proyecto localmente, solo necesitas tener Node.js (LTS) y npm instalados.
+
+Sigue estos pasos:
+
+# 1. Clona el repositorio
+git clone <URL_DEL_REPOSITORIO_GIT>
+
+# 2. Navega al directorio del proyecto
+cd PlanPerfect
+
+# 3. Instala las dependencias
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Inicia el servidor de desarrollo
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Esto iniciará un servidor local (generalmente en http://localhost:5173) con auto-recarga y una vista previa instantánea.
 
-**Use GitHub Codespaces**
+📦 Despliegue (Deployment)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Este es un proyecto de Vite (React), por lo que se compila en archivos estáticos.
 
-## What technologies are used for this project?
+# 1. Genera los archivos estáticos para producción
+npm run build
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Una vez ejecutado, puedes desplegar el contenido de la carpeta dist resultante en cualquier servicio de hosting estático de tu preferencia, como:
 
-## How can I deploy this project?
+Vercel
 
-Simply open [Lovable](https://lovable.dev/projects/27e29072-e165-4dfb-ae6b-cd335ad283f9) and click on Share -> Publish.
+Netlify
 
-## Can I connect a custom domain to my Lovable project?
+GitHub Pages
 
-Yes, you can!
+🤝 Cómo Contribuir
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar PlanPerfect, por favor sigue estos pasos:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Haz un Fork del repositorio.
+
+Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+
+Haz tus cambios y Commit (git commit -m 'Añade nueva característica').
+
+Haz Push a tu rama (git push origin feature/nueva-caracteristica).
+
+Abre un Pull Request para revisión.
+
+📜 Licencia
+
+Este proyecto está bajo la Licencia MIT.
